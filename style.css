@@ -1,4 +1,4 @@
-h1 {
+h1 { 
   color: white;
   text-align: center;
  font-size: 36px;
@@ -17,8 +17,7 @@ body {
   margin: 0 auto;
   background: rgba(5, 5, 5);
   color: rgba(5, 5, 5);
-  box-shadow: rgba(44, 43, 43, 0.35) 0px 5px 15px;
-  
+  box-shadow: rgba(44, 43, 43, 0.35) 0px 5px 15px; 
 }
 
 #city {
@@ -26,10 +25,12 @@ body {
   margin: 0 auto;
   border-radius: 20px;
   width: 340px;
- position: absolute;
- top: 25px;
+  position: absolute;
+  top: 25px;
   background:linear-gradient(to right,blueviolet,blue,plum)
 }
+
+
 img {
   width: 50px;
   height: 100px;
@@ -46,10 +47,12 @@ img {
   transition: all 1s ease-in-out;
 }
 
+
 .flex:hover {
   transform: scale(1.1);
   border-radius: 25px;
 }
+
 
 .flex2 {
   display: flex;
@@ -59,31 +62,37 @@ img {
   padding: 50px;
   transition: all 1s ease-in-out;
 }
+
+
 .flex2:hover {
   transform: scale(1.1);
   border-radius: 25px;
 }
 
+
 .flex3 {
   display: flex;
   justify-content: space-between;
-
   background-image: url("https://th.bing.com/th/id/OIP.m0L1zUwtXlR2dXNXAw_yewHaEK?pid=ImgDet&w=474&h=266&rs=1");
   padding: 50px;
   transition: all 1s ease-in-out;
 }
+
 
 .flex3:hover {
   transform: scale(1.1);
   border-radius: 25px;
 }
 
+
 #cities {
   font-size: 30px;
 }
+
 #time {
   font-size: 30px;
 }
+
 
 #coder{
     text-align: center;
@@ -92,23 +101,24 @@ img {
     color:#fff;
 }
 
+
 a{
     text-decoration: none;
 }
+
+
  #change{
     display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
- padding:1px;
- transition: all 1s ease-in-out;
- font-size: 20px;
- background-image: url("https://th.bing.com/th/id/OIP.m0L1zUwtXlR2dXNXAw_yewHaEK?pid=ImgDet&w=474&h=266&rs=1");
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding:1px;
+    transition: all 2s ease-in-out;
+    font-size: 20px;
+    background-image: url("https://th.bing.com/th/id/OIP.m0L1zUwtXlR2dXNXAw_yewHaEK?pid=ImgDet&w=474&h=266&rs=1");
 
  }
 
  #change:hover{
     transform: scale(1.1);
-    border-radius: 25px;
-    
-    
+    border-radius: 25px;   
  }

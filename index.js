@@ -35,7 +35,8 @@ function chooseCity(event){
     let showDate = moment().tz(timeZone).format("MMMM D YYYY");
     let showTime = moment().tz(timeZone).format("h:m:ss");
     let changeCity=document.querySelector("#change");
-    changeCity.innerHTML = `
+    changeCity.innerHTML =
+    `
         <div id="change" style="padding:40px" >
         <div  >
         <div id="cities">${cityName}</div>
@@ -44,8 +45,9 @@ function chooseCity(event){
         <div id="time">${showTime}</div>
     </div>
    <div>
-
         `;
 }
+
 let cityChange = document.querySelector("#city");
-cityChange.addEventListener("change",chooseCity)
+cityChange.addEventListener("change", chooseCity)
+setInterval(chooseCity, 1);
