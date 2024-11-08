@@ -3,12 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
+
+    
+    
 </head>
 <body>
     
+    
+<div class="container">
+    <header>
+    <h1>World Clock</h1>
+    <select name="" id="city">
+    <option value="">Add a city</option>
+    <option value="current">Show my current locaction</option>
+    <option value="America/New_York ">New York</option>
+    <option value="Pacific/Auckland">Auckland</option>
+    <option value="Australia/Sydney">Sydney</option>
+    <option value="'Africa/Harare">Harare</option>
+    <option value="Asia/Tokyo">Tokyo</option>
+    </select>
+</header>
+<main>
+    <div id="change"></div>
+   
+    <div class="flex">
+        <div>
+        <div id="cities">London</div>
+        <div id="date">October 20 2024</div>
+        </div>
+        <div id="time">10:20:00</div>
+    </div>
    <div>
-    <img src="https://i.pinimg.com/originals/a5/b0/73/a5b073....gif"/>
+
+    <div class="flex2">
+        
+        <div>
+            <div id="cities">Samoa</div>
+            <div id="date" class="saDate">October 20 2024</div>
+        </div>
+        <div id="time" class="saTime">10:20:00</div>
+    </div>
+    
+    <div>
+
+ 
+        <div class="flex3">
+        <div>
+        <div id="cities">Pretoria</div>
+        <div id="date" class="paDate">October 20 2024</div>
+        </div>
+        <div id="time" class="paTime">10:20:00</div>
+    </div>
+   <div>
+
    </div> 
+</main>
+
+</div>
+
+<footer>
+    <div  id="coder">
+        This project was coded by <a href="">Amanda Ndala</a>
+        ,is <a href="">open-sourced on Github</a>
+        and hosted on <a href="">Netlify</a>
+    </div>
+    <script src="index.js"></script>
+</footer>
 </body>
 </html>

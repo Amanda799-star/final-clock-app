@@ -1,0 +1,114 @@
+h1 {
+  color: white;
+  text-align: center;
+ font-size: 36px;
+  margin-top: 60px;
+}
+
+body {
+  background-color: #0e0e0e;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  max-width: 347px;
+  max-height: 618px;
+  display: block;
+  margin: 0 auto;
+  background: rgba(5, 5, 5);
+  color: rgba(5, 5, 5);
+  box-shadow: rgba(44, 43, 43, 0.35) 0px 5px 15px;
+  
+}
+
+#city {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  width: 340px;
+ position: absolute;
+ top: 25px;
+  background:linear-gradient(to right,blueviolet,blue,plum)
+}
+img {
+  width: 50px;
+  height: 100px;
+  box-shadow: rgba(109, 105, 105, 0.35) 0px 5px 15px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-image: url("https://th.bing.com/th/id/OIP.XNghZTpQrDZG2dKjN3eP4QAAAA?rs=1&pid=ImgDetMain");
+  padding: 50px;
+  transition: all 1s ease-in-out;
+}
+
+.flex:hover {
+  transform: scale(1.1);
+  border-radius: 25px;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-image: url("https://th.bing.com/th/id/OIP.qB8Yds648pG9ObFSK-Np4QHaE9?w=285&h=191&c=7&r=0&o=5&pid=1.7");
+  padding: 50px;
+  transition: all 1s ease-in-out;
+}
+.flex2:hover {
+  transform: scale(1.1);
+  border-radius: 25px;
+}
+
+.flex3 {
+  display: flex;
+  justify-content: space-between;
+
+  background-image: url("https://th.bing.com/th/id/OIP.m0L1zUwtXlR2dXNXAw_yewHaEK?pid=ImgDet&w=474&h=266&rs=1");
+  padding: 50px;
+  transition: all 1s ease-in-out;
+}
+
+.flex3:hover {
+  transform: scale(1.1);
+  border-radius: 25px;
+}
+
+#cities {
+  font-size: 30px;
+}
+#time {
+  font-size: 30px;
+}
+
+#coder{
+    text-align: center;
+    margin-top: 130px;
+    font-size: 18px;
+    color:#fff;
+}
+
+a{
+    text-decoration: none;
+}
+ #change{
+    display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+ padding:1px;
+ transition: all 1s ease-in-out;
+ font-size: 20px;
+ background-image: url("https://th.bing.com/th/id/OIP.m0L1zUwtXlR2dXNXAw_yewHaEK?pid=ImgDet&w=474&h=266&rs=1");
+
+ }
+
+ #change:hover{
+    transform: scale(1.1);
+    border-radius: 25px;
+    
+    
+ }
