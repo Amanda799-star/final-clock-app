@@ -1,24 +1,24 @@
 function diplayDate(){
-    let londonTime = moment().tz("Europe/London").format("h:m:ss");
+    let londonTime = moment().tz("Europe/London").format("h:m:ss[<small>]A[</small>]");
     let londonDate = moment().tz("Europe/London").format("MMMM D YYYY");
     let showLondonTime = document.querySelector("#time");
     let showLondonDate = document.querySelector("#date")
     showLondonDate.innerHTML = londonDate;
     showLondonTime.innerHTML = londonTime;
 
-    let samoaTime = moment().tz("Pacific/Samoa").format("h:m:ss");
+    let samoaTime = moment().tz("Pacific/Samoa").format("h:m:ss[<small>]A[</small>]");
     let samoaDate = moment().tz("Pacific/Samoa").format("MMMM D YYYY");
     let showSamoaTime = document.querySelector(".saTime");
     let showSamoaDate = document.querySelector(".saDate");
     showSamoaDate.innerHTML = samoaDate;
     showSamoaTime.innerHTML = samoaTime;
 
-    let pretoriaTime = moment().tz("Pacific/Samoa").format("h:m:ss ");
-    let pretoriaDate = moment().tz("Pacific/Samoa").format("MMMM D YYYY");
+    let pretoriaTime = moment().tz("Africa/Pretoria").format("h:m:ss[<small>]A[</small>]");
+    let pretoriaDate = moment().tz("Africa/Pretoria").format("MMMM D YYYY");
     let showPretoriaTime = document.querySelector(".paTime");
     let showPretoriaDate = document.querySelector(".paDate");
     showPretoriaDate.innerHTML = pretoriaDate;
-    showPretoriaTime.innerHTML = pretoriaTime;
+    showPretoriaTime.innerHTML = `${pretoriaTime}`;
     
 
 }
@@ -33,7 +33,7 @@ function chooseCity(event){
     }
     let cityName=timeZone.replace("_"," ").split("/")[1];
     let showDate = moment().tz(timeZone).format("MMMM D YYYY");
-    let showTime = moment().tz(timeZone).format("h:m:ss");
+    let showTime = moment().tz(timeZone).format("h:m:ssA");
     let changeCity=document.querySelector("#change");
     changeCity.innerHTML =
     `
